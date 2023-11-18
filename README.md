@@ -1,4 +1,23 @@
-# Learn Markdown lang .md
+
+<details>
+<summary>Table of Contant</summary>
+
+- [Headding](#headding)
+- [Bold](#bold)
+- [Italic](#italic)
+- [Strick Though](#strick-though)
+- [Ordered List](#ordered-list)
+- [Unordered List](#unorderd-list)
+- [Code Text](#code-text)
+- [Coad block](#code-block-or-snippit)
+- [Horizontal line](#horizontal-line)
+- [Link](#link)
+- [Images](#images)
+- [Table](#table)
+- [Summary](#summary)
+- [Badge](#badge)
+</details>
+
 ## Headding
 >Use `#..`text
 
@@ -98,19 +117,17 @@ use `[ ![text](Image's link or path) ](link)`
 ## Table
 | Uid | Name | Class | Section | E-Mail
 | :----: | :---- | :----: |:----:|----:
-| 22BCA10108|Prince | 22BCA | 1B | 22bca10108@cucdh.in |
-| 22BCA10108|Prince | 22BCA | 1B | 22bca10108@cucdh.in |
-| 22BCA10108|Prince | 22BCA | 1B | 22bca10108@cucdh.in |
-| 22BCA10108|Prince | 22BCA | 1B | 22bca10108@cucdh.in |
-| 22BCA10108|Prince | 22BCA | 1B | 22bca10108@cucdh.in |
-| 22BCA10108|Prince | 22BCA | 1B | 22bca10108@cucdh.in |
-| 22BCA10108|Prince | 22BCA | 1B | 22bca10108@cucdh.in |
-| 22BCA10108|Prince | 22BCA | 1B | 22bca10108@cucdh.in |
-| 22BCA10108|Prince | 22BCA | 1B | 22bca10108@cucdh.in |
-| 22BCA10108|Prince | 22BCA | 1B | 22bca10108@cucdh.in |
-
-## Summary
->use `<HTML>` tag:
+| 22BCA10108|Prince | 22BCA | 1B | Prince@mail.in |
+| 22BCA10108|Prince | 22BCA | 1B | Prince@mail.in |
+| 22BCA10108|Prince | 22BCA | 1B | Prince@mail.in |
+| 22BCA10108|Prince | 22BCA | 1B | Prince@mail.in |
+| 22BCA10108|Prince | 22BCA | 1B | Prince@mail.in |
+| 22BCA10108|Prince | 22BCA | 1B | Prince@mail.in |
+| 22BCA10108|Prince | 22BCA | 1B | Prince@mail.in |
+| 22BCA10108|Prince | 22BCA | 1B | Prince@mail.in |
+| 22BCA10108|Prince | 22BCA | 1B | Prince@mail.in |
+| 22BCA10108|Prince | 22BCA | 1B | Prince@mail.in |
+Prince@mail.inHTML>` tag:
 >
 ```html
 <details>
@@ -130,4 +147,22 @@ use `[ ![text](Image's link or path) ](link)`
 - Task3
 </details>
 
-## Foot Notes
+## Badge
+
+Syntax for Badge 
+>![**altText**][https://img.shields.io/badge/'**leftText** '-'**rightText** '-**ColorCode**?style=for-the-badge&logo='**logoName**'] <br>
+```md
+![Telegram](https://img.shields.io/badge/Telegram-Share-2071a7?style=for-the-badge&logo=telegram)
+```
+![Telegram](https://img.shields.io/badge/Telegram-Share-29B6F6?style=for-the-badge&logo=telegram)
+
+```md
+![Github](https://img.shields.io/badge/Github-Share-ffffff?style=for-the-badge&logo=github)
+```
+![Github](https://img.shields.io/badge/Github-Share-F4511E?style=for-the-badge&logo=github)
+
+To add to the bedge `[ ![]() ]()`
+```md
+[![Github](https://img.shields.io/badge/Github-Share-F4511E?style=for-the-badge&logo=github)](https://github.com/Prince-GH)
+```
+[![Github](https://img.shields.io/badge/Github-Share-F4511E?style=for-the-badge&logo=github)](https://github.com/Prince-GH)
